@@ -1,0 +1,41 @@
+
+body{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin: 0 auto;
+    background-color: #020107;
+    color:rgb(255, 0, 0);
+    background-image: url("../assets/tesla4.jpg") ;
+    height: 100vmin;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+   .icon img{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    margin-top: 1.5rem;
+    padding-left: 2rem;
+
+    
+  }
+
+  nav{
+      display: flex;
+      flex-direction: row;
+  }
+ 
+.button-1{
+    background-color: transparent;
+      color: rgb(252, 244, 244);
+      outline: none;
+      border: 2px solid red;
+      padding: 0.8rem 2rem !important;
+      font-size: 0.9rem;
+      margin-left: 74em;
+      margin-top: 1.5rem;
+      border-radius: 10%;
+}
